@@ -15,6 +15,9 @@ int findDivisor(int x){
 }
 
 int main(){
-    cout<<findDivisor(221);
+    int x;
+    cout<<"Input = ";
+    cin>>x;
+    cout<<"Expected Output= "<<findDivisor(x);
     return 0;
 }

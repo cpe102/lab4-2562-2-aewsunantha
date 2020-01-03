@@ -11,7 +11,12 @@ float findS(float u,float a,float t){
 int main(){
 float a,u,t;
   //Calling findDistance() using test cases
-  
-  cout<<"s = "<<findS(0,0.5,1);
+  cout<<"u = ";
+  cin>>u;
+  cout<<"a = ";
+  cin>>a;
+  cout<<"t = ";
+  cin>>t;
+  cout<<"s = "<<findS(u,a,t);
   return 0;
 }
